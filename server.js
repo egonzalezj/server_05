@@ -7,7 +7,7 @@ var port = 80;
 app.set('view engine', 'jade');
 
 app.get("/", function(req, res) {
-  res.render('index', {hola: 'Hola Eli'});
+  res.render('index');
 });
 
 app.listen(port, hostname, function() {

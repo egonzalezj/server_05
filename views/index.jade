@@ -2,4 +2,15 @@ html
   head
     title Server app
   body
-    h1!=hola
+    //Comentario
+    h1 Probando
+    - var array = [1,2,3,4];
+    each item in array
+      p= item
+      case item
+        when 1
+          p El item era uno
+        when 2
+          p El item era dos
+        default
+          p El item no era ni uno ni dos
